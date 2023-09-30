@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.bg-purple {
+  background-color: #66346e !important;
+}
+
+.color-purple {
+  color: #66346e !important;
+}
+
+.color-white {
+  color: #fff!important;
+}
+
+.color-black {
+  color: #000!important;
+}
+
+.font-400 {
+  font-weight: 400 !important;
+}
+
+.font-600 {
+  font-weight: 600 !important;
+}
+
+.font-bold {
+  font-weight: bold !important;
+}
+
+.font-bolder {
+  font-weight: bolder !important;
+}
+
+.l-space-69 {
+  letter-spacing: 0.69px !important;
+}
+
+.l-space-84 {
+  letter-spacing: 0.84px !important;
+}
+
+.border-purple {
+  border: 1px solid #66346e !important;
+}
+
+.f-12 {
+  font-size: 12px !important;
+}
+
+.f-15 {
+  font-size: 15px !important;
+}
+
+.f-18 {
+  font-size: 18px !important;
+}
+
+.j-center {
+  justify-content: center !important;
+}
+
+.a-center {
+  align-items: center !important;
+}
+
+.b-r-5 {
+  border-radius: 5px !important;
+}
+
+.full-height {
+  height: 100vh !important;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.t-align-c {
+  text-align: center !important;
+}
