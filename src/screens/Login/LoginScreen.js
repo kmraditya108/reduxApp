@@ -46,7 +46,7 @@ export default function LoginScreen() {
         type="text"
         id="username"
         aria-describedby="passwordHelpBlock"
-        placeholder="User name"
+        placeholder="Enter name here"
       />
 
       <Form.Label
