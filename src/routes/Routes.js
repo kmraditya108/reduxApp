@@ -18,13 +18,21 @@ import TodoList from '../screens/TodoList';
 //     return <RouterProvider router={mainRouter}/>
 // } 
 
+const Hello = () => {
+    return <div>
+            <center>
+                <h1>Hello Aditya</h1>
+            </center>
+        </div>
+}
 const AppRoutes = () => (
     <Router>
       <Routes>
-      <Route exact path="/" element={<LoginContainer />} />
-      <Route path="/home" element={<HomeContainer />} />
-      <Route path="/EmployeeList" element={<EmployeeList />} />
-      <Route path="/TodoList" element={<TodoList />} />
+        <Route path="dashboard" element={<Hello/>}/>
+      // <Route exact path="/" element={<LoginContainer />} />
+      // <Route path="/home" element={<HomeContainer />} />
+      // <Route path="/EmployeeList" element={<EmployeeList />} />
+      // <Route path="/TodoList" element={<TodoList />} />
       
       </Routes>
     </Router>
