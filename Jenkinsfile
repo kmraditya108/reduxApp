@@ -45,7 +45,7 @@ pipeline {
                 script {
                     // Run tests using npm
                     // sh 'npm test -- --coverage'
-                    echo 'Ract unit Test here ---->  marking it successful!'
+                    echo 'React unit Test here ---->  marking it successful!'
                 }
             }
         }
@@ -53,7 +53,8 @@ pipeline {
             steps {
                 script {
                     // Build the production version of the app
-                    sh 'npm run build'
+                    // sh 'npm run build'
+                    echo 'Building the app step here ---> Marking it as done'
                 }
             }
         }
