@@ -21,7 +21,7 @@ import TodoList from '../screens/TodoList';
 const Hello = () => {
     return <div>
             <center>
-                <h1>Hello Aditya</h1>
+                <h1>Hello Aditya-Demo app</h1>
             </center>
         </div>
 }
