@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/kmraditya108/reduxApp.git'
+                git branch: 'develop', url: 'https://github.com/kmraditya108/reduxApp.git'
             }
         }
         
